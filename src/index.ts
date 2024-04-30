@@ -11,5 +11,5 @@ app.use('/regions', regionRoutes);
 
 app.listen(3000, () => {
     mongoose.connect('mongodb://admin:admin@localhost:27018/?retryWrites=true&w=majority')
-    console.log("RODANDOO")
+    console.log("----- Server running -----")
 });
